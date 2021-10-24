@@ -51,7 +51,6 @@ main {
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 2em;
-    display: block;
 }
 .details {
     padding-left: 20%;
@@ -60,4 +59,7 @@ main {
 img {
     padding-left: 10px;
     padding-right: 10px;
+}
+header, nav, main, footer {
+    display: block;
 }
