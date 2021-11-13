@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>@media</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style type="text/css">
+        body {
+            background-color: #123456;
+        }
+
+        .container {
+            padding: 1em 0;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-flow: column;
+        }
+
+        .container>div {
+            margin: 0.5em 0.5em;
+            padding: 1em;
+            width: calc(100% - 3em);
+            background-color: #ff2222;
+            /*RED = OFF*/
+            border-radius: 999px;
+        }
+
+        @media screen and (max-width: 555px) {
+            .container>.one {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+
+        @media screen and (min-width: 556px) {
+            .container>.two {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+
+        @media screen and (min-width: 556px) and (max-width: 665px){
+            .container>.three {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+
+        @media screen and (min-width: 666px) {
+            .container>.four {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+
+        @media screen and (min-width: 666px) and (max-width: 998px) {
+            .container>.five {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+
+        @media screen and (min-width: 999px) {
+            .container>.six {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+
+        @media screen and (min-width: 999px) and (max-width: 1199px) {
+            .container>.seven {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .container>.eight {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+
+        @media screen and (min-width: 1200px) and (max-width: 1449px) {
+            .container>.nine {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+
+        @media screen and (min-width: 1450px) {
+            .container>.ten {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="one">555px and smaller</div>
+
+        <div class="two">556px and larger</div>
+
+        <div class="three">556px to 665px</div>
+
+        <div class="four">666px and larger</div>
+
+        <div class="five">666px to 998px</div>
+
+        <div class="six">999px and larger</div>
+
+        <div class="seven">999px to 1199px</div>
+
+        <div class="eight">1200px and larger</div>
+
+        <div class="nine">1200px to 1449px</div>
+
+        <div class="ten">1450px and larger</div>
+    </div>
+
+</body>
+
+</html>
