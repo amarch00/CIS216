@@ -3,22 +3,26 @@ body {
     color: #221811;
     font-family: Verdana, Arial,sans-serif;
 }
+
 header {
     background-color: #b8b8b8;
     height: 150px;
 }
+
 h1 {
     padding-top: 45px;
     padding-left: 50px;
     font-size: 3em;
     color: #000000;
 }
+
 nav {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
     padding-top: 10px;
 }
+
 footer {
     background-color: #b8b8b8;
     font-size: small;
@@ -27,6 +31,7 @@ footer {
     padding-bottom: 10px;
     border-top: solid 2px #000000;
 }
+
 #wrapper {
     background-color: #030099;
     width: 80%;
@@ -36,28 +41,34 @@ footer {
     max-width: 1280px;
     box-shadow: 3px 3px 3px;
 }
+
 nav a {
     text-decoration: none;
 }
+
 h4 {
     background-color: #b8b8b8;
     font-size: 1.2em;
     padding-left: .5em;
     padding-bottom: .25em;
 }
+
 main {
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 2em;
 }
+
 .details {
     padding-left: 20%;
     padding-right: 20%;
 }
+
 img {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 header, nav, main, footer {
     display: block;
 }
