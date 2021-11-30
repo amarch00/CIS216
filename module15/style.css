@@ -179,7 +179,11 @@ input, textarea {
 }
 
 .radio_btn_label {
-    margin: -30px 125px;
+    margin: -35px 120px;
     text-align: right;
     cursor: pointer;
+}
+
+.radio_btn_input {
+    margin: 20px 130px;
 }
