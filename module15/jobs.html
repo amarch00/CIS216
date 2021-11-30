@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaJam Coffee Joint Jobs</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee Joint</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+            <p>
+                Want to work at JavaJam? Fill out the form below to start your applicaiton. Required fields are marked with an asterisk (&ast;).
+            </p>
+            <form method="post" action="http://webdevbasics.net/scripts/javajam8.php.">
+                <label for="myName">&ast;Name:</label>
+                <input class="input_width" type="text" name="myName" id="myName" required="required">
+                <label for="myEmail">&ast;Email:</label>
+                <input class="input_width" type="email" name="myEmail" id="myEmail" required="required">
+                <p>&ast;Desired Hours:</p>
+                <input class="input_width" type="radio" id="Full_Time" name="Desired_Hours" value="Full_Time" required="required">
+                <label class="radio_btn_label" for="Full_Time">Full Time</label>
+                <input class="input_width" type="radio" id="Part_Time" name="Desired_Hours" value="Part_Time" required="required">
+                <label class="radio_btn_label" for="Part_Time"> Part Time</label>
+                <label for="myExperience">&ast;Experience:</label>
+                <textarea class="input_width" name="myExperience" id="myExperience" rows="2" cols="20" required="required"></textarea>
+                <input type="submit" value="Apply Now" id="mySubmit">
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; 2021 JavaJam Coffee Joint<br>
+            <a href="Alejandro@Marchan.com">Alejandro@Marchan.com</a>
+        </footer>
+        </div>
+    </body>
+</html>
